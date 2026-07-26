@@ -1,7 +1,26 @@
 aid: fazwaz
 name: FazWaz
-description: FazWaz is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: FazWaz is a Thailand-based property technology company operating one of
+  the most comprehensive real estate portals in Southeast Asia. Through fazwaz.com
+  it aggregates residential and investment property listings — condos, houses, villas,
+  and land for sale and rent — connecting buyers, sellers, renters, and agents across
+  Thailand and neighboring markets, and pairs the consumer marketplace with agent
+  tools, market data, and property-management services. FazWaz is backed by 500 Global.
+  It runs an internal application API and a GraphQL endpoint that power its own web
+  and mobile clients (both disallowed to crawlers in robots.txt); no public developer
+  API, OpenAPI specification, or developer portal has been published at this time.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/18389874?v=4
 url: https://raw.githubusercontent.com/api-evangelist/fazwaz/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Real Estate
+- PropTech
+- Property Listings
+- Marketplace
+- Thailand
+- Southeast Asia
+- GraphQL
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,14 @@ maintainers:
 common:
 - type: Website
   url: https://fazwaz.com
+- type: GitHubOrganization
+  url: https://github.com/FazWaz
+- type: DomainSecurity
+  url: security/fazwaz-domain-security.yml
+- type: LLMsTxt
+  url: llms/fazwaz-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
